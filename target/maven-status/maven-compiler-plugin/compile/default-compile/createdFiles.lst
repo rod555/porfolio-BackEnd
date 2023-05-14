@@ -1,0 +1,8 @@
+com/yoprogramo/porfolioBackEnd/model/PorfolioDataType.class
+com/yoprogramo/porfolioBackEnd/model/PorfolioDataTypeAutomatic.class
+com/yoprogramo/porfolioBackEnd/PorfolioBackEndApplication.class
+com/yoprogramo/porfolioBackEnd/model/InstitucionEducativa.class
+com/yoprogramo/porfolioBackEnd/Controller.class
+com/yoprogramo/porfolioBackEnd/model/CompaniaActual.class
+com/yoprogramo/porfolioBackEnd/WebConfig.class
+com/yoprogramo/porfolioBackEnd/IDataPersistenteRepository.class
