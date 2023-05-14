@@ -10,20 +10,24 @@ import java.util.ArrayList;
  *
  * @author rodrigo
  */
+
+
+
 public class PorfolioDataTypeAutomatic {
-  private String imagenDeFondo=;
-  private String imagenFoto=;
-  private String nombre=;
-  private String puestoActual=;
-  private String residenciaActual=;
-  CompaniaActual CompaniaActualObject=;
-  InstitucionEducativa InstitucionEducativaObject=;
-  private String acercaDe=;
-  ArrayList<Object> antecedentesLaborales = new ArrayList<Object>()=;
-  ArrayList<Object> educacion = new ArrayList<Object>()=;
-  ArrayList<Object> skills = new ArrayList<Object>()=;
-  ArrayList<Object> proyectosRealizados = new ArrayList<Object>()=;
-  ArrayList<Object> otrosIntereses = new ArrayList<Object>()=;
+    
+  private String imagenDeFondo="";
+  private String imagenFoto="";
+  private String nombre="";
+  private String puestoActual="";
+  private String residenciaActual="";
+  CompaniaActual CompaniaActualObject=null;
+  InstitucionEducativa InstitucionEducativaObject=null;
+  private String acercaDe="";
+  ArrayList<Object> antecedentesLaborales = new ArrayList<>();
+  ArrayList<Object> educacion = new ArrayList<>();
+  ArrayList<Object> skills = new ArrayList<>();
+  ArrayList<Object> proyectosRealizados = new ArrayList<>();
+  ArrayList<Object> otrosIntereses = new ArrayList<>();
 
 
  // Getter Methods 
@@ -94,72 +98,9 @@ public class PorfolioDataTypeAutomatic {
     this.acercaDe = acercaDe;
   }
 }
-public class InstitucionEducativa {
-  private String nombre;
-  private String img;
-  private String url;
 
 
- // Getter Methods 
-
-  public String getNombre() {
-    return nombre;
-  }
-
-  public String getImg() {
-    return img;
-  }
-
-  public String getUrl() {
-    return url;
-  }
-
- // Setter Methods 
-
-  public void setNombre( String nombre ) {
-    this.nombre = nombre;
-  }
-
-  public void setImg( String img ) {
-    this.img = img;
-  }
-
-  public void setUrl( String url ) {
-    this.url = url;
-  }
-}
-public class CompaniaActual {
-  private String nombre;
-  private String img;
-  private String url;
 
 
- // Getter Methods 
-
-  public String getNombre() {
-    return nombre;
-  }
-
-  public String getImg() {
-    return img;
-  }
-
-  public String getUrl() {
-    return url;
-  }
-
- // Setter Methods 
-
-  public void setNombre( String nombre ) {
-    this.nombre = nombre;
-  }
-
-  public void setImg( String img ) {
-    this.img = img;
-  }
-
-  public void setUrl( String url ) {
-    this.url = url;
-  }
-
-}
+/*https://github.com/rod555/porfolio-BackEnd.git
+*/

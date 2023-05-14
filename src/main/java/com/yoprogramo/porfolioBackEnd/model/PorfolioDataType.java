@@ -4,24 +4,25 @@
  */
 package com.yoprogramo.porfolioBackEnd.model;
 
-/**
- *
- * @author rodrigo
- */
+import java.util.List;
+
+
 public class PorfolioDataType {
-    
+    /*
     String imagenDeFondo="/assets/bckgfoto.jpg";
     String imagenFoto= "/assets/foto.jpg";
     String nombre= "Rodrigo Yaltone";
     String puestoActual= "Poner aca redes sociales";
     String residenciaActual= "Buenos Aires (Argentina)";
     List<> companiaActual= new List();
+    
 "companiaActual": {
 		"nombre": "ENRE",
 		"img": "https://es.wikipedia.org/wiki/Ente_Nacional_Regulador_de_la_Electricidad#/media/Archivo:Enre_logo.png",
 		"url": "#"
 	},
-
+            
+    
      List<> institucionEducativa= new List();
 "institucionEducativa": {
 		"nombre": "UNLP",
@@ -132,7 +133,10 @@ ArrayList antecedentesLaborales= new Arraylist(); [{
     "experiencia":"11 años"
     }
   ]
+    */
 }
+
+
 
     
     
@@ -261,6 +265,4 @@ ArrayList antecedentesLaborales= new Arraylist(); [{
     }
   ]
 }
-*/
-    
-}
+*/ 
