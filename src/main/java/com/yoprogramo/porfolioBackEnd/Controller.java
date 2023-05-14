@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class Controller {
-    @GetMapping("/")
-    public String hola(){
-        return "hola";
-    }
+//    @GetMapping("/")
+//    public String hola(){
+//        return "hola";
+//    }
 }
